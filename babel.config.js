@@ -6,7 +6,9 @@ module.exports = {
         useBuiltIns: 'entry',
         jsx: {
         // vite need false and vue-cli need true
-          injectH: !process.env.USE_VITE
+          // injectH: !process.env.USE_VITE,
+          compositionAPI: true,
+          vModel: false
         }
       }
     ]
