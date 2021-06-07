@@ -29,5 +29,14 @@ module.exports = {
        */
       optimizeDeps: {}
     }
+  },
+
+  css: {
+    loaderOptions: {
+      less: {
+        // DO NOT REMOVE THIS LINE
+        javascriptEnabled: true
+      }
+    }
   }
 }

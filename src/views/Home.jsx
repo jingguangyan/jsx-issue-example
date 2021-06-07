@@ -13,7 +13,7 @@ export default {
     return (
       <div class="home">
         <div>{this.count}</div>
-        <button onClick={this.handleClick}>click me</button>
+        <a-button onClick={this.handleClick}>click me</a-button>
       </div>
     )
   }
